@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* id card style */
+.id-card-wrapper-front {
+    position: relative;
+    width: 54mm;
+    height: 86mm;
+    margin: 17.25mm;
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff;
+    color: orangered;
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    width: 54mm;
+    height: 86mm;
+    position: absolute;
+    background-image: linear-gradient(rgba(245, 235, 240, 0.672), rgba(237, 216, 228, 0.664));
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background .id-dark-orange {
+    position: relative;
+    width: 54mm;
+    height: 22.5mm;
+    background-color: orangered;
+    top:calc(86mm - 22.5mm);
+}
+
+.org-logo {
+    position: relative;
+    width: 10mm;
+    top: 0.25mm;
+}
+
+.org-logo img {
+    position: relative;
+    width: 30mm;
+    height: 8mm;
+    left: 12mm;
+    top: 1mm;
+}
+
+.user-photo img {
+    position: relative;
+    height: 30mm;
+    width: 29mm;
+    object-fit: cover;
+    left: 12mm;
+    top: 45mm;
+}
+
+.user-name {
+    position: relative;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    bottom: 27mm;
+    color: orangered;
+}
+/*  */
+.id-number,
+.id-title
+ {
+    position: relative;
+    font-size: 12pt;
+    font-weight: bold;
+    bottom: 27mm;
+    left: 4.3mm;
+}
+.org-name,
+.org-address {
+    position: relative;
+    font-size: 11pt;
+    font-weight: bold;
+    bottom: 26mm;
+    left: 12mm;
+}
+.org-name{
+    left: 4.8mm;
+}
+.id-card-wrapper-back {
+    position: absolute;
+    width: 54mm;
+    height: 86mm;
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff;
+    color: orangered;
+    overflow: hidden;
+    bottom: 51mm;
+    right: 200mm;
+}
+
+.id-card-background {
+    width: 54mm;
+    height: 86mm;
+    position: absolute;
+    background-image: linear-gradient(rgba(245, 235, 240, 0.672), rgba(237, 216, 228, 0.664));
+    overflow: hidden;
+}
+.id-card-wrapper-back .id-card-background .id-dark-orange {
+    position: relative;
+    width: 54mm;
+    height: 22.5mm;
+    background-color: orangered;
+    top:calc(86mm - 22.5mm);
+}
+/* Content Styles */
+.qr-code {
+    position: relative;
+    top: 20mm;
+    left: 21mm;
+}
+
+.qr-code img {
+    position: relative;
+    width: 17mm;
+    height: 17mm;
+    border-radius: 5pt;
+    bottom: 17mm;
+    margin-bottom: 3mm;
+    right: 3mm;
+}
+
+.id-emergency-contact{
+    position: relative;
+    font-size: 11pt;
+    font-weight: bold;
+    top: 1mm;
+    left: 3mm;
+}
+.id-blood-group,
+.id-dob,
+.id-issue-date,
+.id-expiry-date
+{
+    position: relative;
+    font-size: 11pt;
+    font-weight: bold;
+    top: 1mm;
+    left: 3mm;
+}
+.id-policy {
+    position: relative;
+    font-size: 8pt;
+    color: black;
+    font-weight: bold;
+    top: 10mm;
+    left: 1mm;
+}
